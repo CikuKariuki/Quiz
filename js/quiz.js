@@ -51,3 +51,5 @@ $(document).ready(function() {
        alert(score);
            // document.getElementById("message").innerHTML="You scored" + " " + score +"%".
            });
+
+           $("#submit2").click(function(){
