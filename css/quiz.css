@@ -1,3 +1,7 @@
 .htmlquiz, .cssquiz, .jsquiz{
   display: none;
-} 
+}
+body{
+  background-image: url("https://ugc.futurelearn.com/uploads/images/d3/4e/d34ec158-70f0-410c-bcc8-466a31e19e07.jpg");
+  font-size: 18pt;
+}
