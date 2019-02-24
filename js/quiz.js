@@ -4,3 +4,8 @@ $(document).ready(function() {
     $("#quejs").hide();
     $("#quehtml").slideToggle();
   });
+  $("#cq").click(function(){
+    $("#quehtml").hide()
+    $("#quejs").hide()
+    $("#quecss").slideToggle()
+  });
