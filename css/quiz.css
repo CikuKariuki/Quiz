@@ -26,3 +26,8 @@ button:hover{
 .topbutton:hover{
     padding-left: 30px;
 }
+.well{
+  background-color: #90a4ae;
+  border: none;
+ opacity: 0.9;
+}
