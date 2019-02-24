@@ -116,3 +116,7 @@ $(document).ready(function() {
           // document.getElementById("message").innerHTML="You scored" + " " + score +"%".
 
         });
+
+
+        event.preventDefault();
+      });
