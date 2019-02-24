@@ -23,14 +23,14 @@ JQUERY
 | User doesn't answer all questions.| some unchecked boxes|Please answer all questions|
 
 
-##Known bugs
+## Known bugs
 I do not know of any existing bugs.
 
 
 ## Specs
 To get your results, all questions must be answered.
 
-##Contact
+## Contact
 sheekokariuki@gmail.com
 
 ### License
