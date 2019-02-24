@@ -9,3 +9,10 @@ $(document).ready(function() {
     $("#quejs").hide()
     $("#quecss").slideToggle()
   });
+  $("#jq").click(function(){
+    $("#quecss").hide()
+    $("#quehtml").hide()
+    $("#quejs").slideToggle()
+
+  });
+ });
