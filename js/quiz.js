@@ -53,3 +53,10 @@ $(document).ready(function() {
            });
 
            $("#submit2").click(function(){
+             var marks = 0;
+             var score = 0;
+             var ques1 = document.forms["quecss"]["cssq1"].value;
+             var ques2 = document.forms["quecss"]["cssq2"].value;
+             var ques3 = document.forms["quecss"]["cssq3"].value;
+             var ques4 = document.forms["quecss"]["cssq4"].value;
+             var ques5 = document.forms["quecss"]["cssq5"].value;
