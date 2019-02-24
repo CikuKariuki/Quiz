@@ -16,3 +16,7 @@ $(document).ready(function() {
 
   });
  });
+
+
+ $(document).ready(function() {
+     $("#submit1").click(function(){
