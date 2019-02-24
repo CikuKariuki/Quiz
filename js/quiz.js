@@ -92,3 +92,27 @@ $(document).ready(function() {
           var ques3 = document.forms["quejs"]["jsq3"].value;
           var ques4 = document.forms["quejs"]["jsq4"].value;
           var ques5 = document.forms["quejs"]["jsq5"].value;
+
+          for(i=0; i<=5; 1++){
+            if(ques1 == "20"){
+              score = marks + 20;
+            }
+            if(ques2 == "20"){
+              score = score+20;
+            }
+          //   if(ques3 == "20"){
+          //     score = score + 20;
+          //   }
+          //   if(ques4 == "20"){
+          //     score = score + 20;
+          //   }
+          //   if(ques5 == "20"){
+          //     score = score + 20;
+          //   }
+          // } else {
+          //   alert("answer all questions")
+          // }
+      alert(score);
+          // document.getElementById("message").innerHTML="You scored" + " " + score +"%".
+
+        });
