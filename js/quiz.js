@@ -84,3 +84,4 @@ $(document).ready(function() {
              // document.getElementById("message").innerHTML="You scored" + " " + score +"%".
 
            });
+        $("#submit3").click(function(){
