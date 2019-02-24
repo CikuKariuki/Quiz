@@ -5,3 +5,11 @@ body{
   background-image: url("https://ugc.futurelearn.com/uploads/images/d3/4e/d34ec158-70f0-410c-bcc8-466a31e19e07.jpg");
   font-size: 18pt;
 }
+button{
+  border-radius: 16px;
+  background-color: white;
+  font-size: 20pt;
+  width: 200px;
+  border: 1px solid #a7ffeb;
+  text-align: center;
+}
