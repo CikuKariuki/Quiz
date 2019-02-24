@@ -85,3 +85,10 @@ $(document).ready(function() {
 
            });
         $("#submit3").click(function(){
+          var marks = 0;
+          var score = 0;
+          var ques1 = document.forms["quejs"]["jsq1"].value;
+          var ques2 = document.forms["quejs"]["jsq2"].value;
+          var ques3 = document.forms["quejs"]["jsq3"].value;
+          var ques4 = document.forms["quejs"]["jsq4"].value;
+          var ques5 = document.forms["quejs"]["jsq5"].value;
