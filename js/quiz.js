@@ -20,3 +20,12 @@ $(document).ready(function() {
 
  $(document).ready(function() {
      $("#submit1").click(function(){
+       var marks = 0;
+       var score = 0;
+       var ques1 = document.forms["quehtml"]["htmlq1"].value;
+       var ques2 = document.forms["quehtml"]["htmlq2"].value;
+       var ques3 = document.forms["quehtml"]["htmlq3"].value;
+       var ques4 = document.forms["quehtml"]["htmlq4"].value;
+       var ques5 = document.forms["quehtml"]["htmlq5"].value;
+
+       
