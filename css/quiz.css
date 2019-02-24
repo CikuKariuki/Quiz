@@ -13,3 +13,8 @@ button{
   border: 1px solid #a7ffeb;
   text-align: center;
 }
+button:hover{
+  background-color: #a7ffeb;
+  color: black;
+  width: 350px;
+}
