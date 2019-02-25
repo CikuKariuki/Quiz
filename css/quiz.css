@@ -21,7 +21,6 @@ button:hover{
 .topbutton{
   font-size: 20pt;
   width: 300px;
-
 }
 .topbutton:hover{
     padding-left: 30px;
@@ -30,4 +29,22 @@ button:hover{
   background-color: #90a4ae;
   border: none;
  opacity: 0.9;
+}
+#message{
+  color: #fff;
+  font-size: 30pt;
+  font-weight: bolder;
+  background-color:#546e7a;
+}
+#results{
+  color: #fff;
+  font-size: 30pt;
+  font-weight: bolder;
+  background-color:#546e7a;
+}
+#ans{
+  color: #fff;
+  font-size: 30pt;
+  font-weight: bolder;
+  background-color:#546e7a;
 }

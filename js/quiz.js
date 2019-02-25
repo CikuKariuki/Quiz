@@ -29,61 +29,62 @@ $(document).ready(function() {
        var ques5 = document.forms["quehtml"]["htmlq5"].value;
 
 
-           for(i=0; i<=5; 1++){
-             if(ques1 == "20"){
+            if(ques1 == "20"){
                score = marks + 20;
              }
              if(ques2 == "20"){
                score = score+20;
              }
-           //   if(ques3 == "20"){
-           //     score = score + 20;
-           //   }
-           //   if(ques4 == "20"){
-           //     score = score + 20;
-           //   }
-           //   if(ques5 == "20"){
-           //     score = score + 20;
-           //   }
-           // } else {
-           //   alert("answer all questions")
-           // }
-       alert(score);
-           // document.getElementById("message").innerHTML="You scored" + " " + score +"%".
-           });
+             if(ques3 == "20"){
+               score = score + 20;
+             }
+             if(ques4 == "20"){
+               score = score + 20;
+             }
+             if(ques5 == "20"){
+               score = score + 20;
+             }
 
+
+          event.preventDefault();
+         document.getElementById("message").innerHTML="You scored" + " " + score +"%";
+         });
+
+     });
+
+          $(document).ready(function() {
            $("#submit2").click(function(){
              var marks = 0;
              var score = 0;
-             var ques1 = document.forms["quecss"]["cssq1"].value;
-             var ques2 = document.forms["quecss"]["cssq2"].value;
-             var ques3 = document.forms["quecss"]["cssq3"].value;
-             var ques4 = document.forms["quecss"]["cssq4"].value;
-             var ques5 = document.forms["quecss"]["cssq5"].value;
+             var ques12 = document.forms["quecss"]["cssq1"].value;
+             var ques22 = document.forms["quecss"]["cssq2"].value;
+             var ques32 = document.forms["quecss"]["cssq3"].value;
+             var ques42 = document.forms["quecss"]["cssq4"].value;
+             var ques52 = document.forms["quecss"]["cssq5"].value;
 
-             for(i=0; i<=5; 1++){
-               if(ques1 == "20"){
-                 score = marks + 20;
+              if(ques12 == "20"){
+                 score = marks+20;
                }
-               if(ques2 == "20"){
+               if(ques22 == "20"){
                  score = score+20;
                }
-             //   if(ques3 == "20"){
-             //     score = score + 20;
-             //   }
-             //   if(ques4 == "20"){
-             //     score = score + 20;
-             //   }
-             //   if(ques5 == "20"){
-             //     score = score + 20;
-             //   }
-             // } else {
-             //   alert("answer all questions")
-             // }
-         alert(score);
-             // document.getElementById("message").innerHTML="You scored" + " " + score +"%".
+               if(ques32 == "20"){
+                 score = score + 20;
+               }
+               if(ques42 == "20"){
+                 score = score + 20;
+               }
+               if(ques52 == "20"){
+                 score = score + 20;
+               }
 
+
+               event.preventDefault();
+              document.getElementById("results").innerHTML="You scored" + " " + score +"%";
+      });
            });
+
+           $(document).ready(function() {
         $("#submit3").click(function(){
           var marks = 0;
           var score = 0;
@@ -93,30 +94,28 @@ $(document).ready(function() {
           var ques4 = document.forms["quejs"]["jsq4"].value;
           var ques5 = document.forms["quejs"]["jsq5"].value;
 
-          for(i=0; i<=5; 1++){
+
             if(ques1 == "20"){
               score = marks + 20;
             }
             if(ques2 == "20"){
               score = score+20;
             }
-          //   if(ques3 == "20"){
-          //     score = score + 20;
-          //   }
-          //   if(ques4 == "20"){
-          //     score = score + 20;
-          //   }
-          //   if(ques5 == "20"){
-          //     score = score + 20;
-          //   }
-          // } else {
-          //   alert("answer all questions")
-          // }
-      alert(score);
-          // document.getElementById("message").innerHTML="You scored" + " " + score +"%".
+            if(ques3 == "20"){
+              score = score + 20;
+            }
+            if(ques4 == "20"){
+              score = score + 20;
+            }
+            if(ques5 == "20"){
+              score = score + 20;
+            }
 
-        });
+          alert(score);
+      // document.getElementById("message").innerHTML="You scored" + " " + score +"%".
 
-
-        event.preventDefault();
       });
+
+
+
+ });
