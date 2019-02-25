@@ -84,7 +84,7 @@ $(document).ready(function() {
       });
            });
 
-           $(document).ready(function() {
+        $(document).ready(function() {
         $("#submit3").click(function(){
           var marks = 0;
           var score = 0;
@@ -111,11 +111,9 @@ $(document).ready(function() {
               score = score + 20;
             }
 
-          alert(score);
-      // document.getElementById("message").innerHTML="You scored" + " " + score +"%".
+            event.preventDefault();
+           document.getElementById("ans").innerHTML="You scored" + " " + score +"%";
 
       });
-
-
 
  });
