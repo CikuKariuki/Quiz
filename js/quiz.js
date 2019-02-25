@@ -1,3 +1,4 @@
+// UI logic
 $(document).ready(function() {
   $("#hq").click(function(){
     $("#quecss").hide();
@@ -20,6 +21,8 @@ $(document).ready(function() {
 
  $(document).ready(function() {
      $("#submit1").click(function(){
+//Business logic
+
        var marks = 0;
        var score = 0;
        var ques1 = document.forms["quehtml"]["htmlq1"].value;
@@ -45,15 +48,18 @@ $(document).ready(function() {
                score = score + 20;
              }
 
-
+//UI logic
           event.preventDefault();
          document.getElementById("message").innerHTML="You scored" + " " + score +"%";
          });
 
      });
-
+// Business logic
           $(document).ready(function() {
            $("#submit2").click(function(){
+
+
+
              var marks = 0;
              var score = 0;
              var ques12 = document.forms["quecss"]["cssq1"].value;
@@ -78,12 +84,12 @@ $(document).ready(function() {
                  score = score + 20;
                }
 
-
+//UI logic
                event.preventDefault();
               document.getElementById("results").innerHTML="You scored" + " " + score +"%";
       });
            });
-
+//Business logic
         $(document).ready(function() {
         $("#submit3").click(function(){
           var marks = 0;
@@ -110,7 +116,7 @@ $(document).ready(function() {
             if(ques5 == "20"){
               score = score + 20;
             }
-
+//UI logic
             event.preventDefault();
            document.getElementById("ans").innerHTML="You scored" + " " + score +"%";
 
