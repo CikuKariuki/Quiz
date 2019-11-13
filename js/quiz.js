@@ -118,7 +118,14 @@ $(document).ready(function() {
             }
 //UI logic
             event.preventDefault();
-           document.getElementById("ans").innerHTML="You scored" + " " + score +"%";
+            if (score==0){
+              document.getElementById("ans").innerHTML="You scored" + " " + score +"%. You can do better than that!" ;
+              $("#ansimg").show();
+            } else {
+              $("#ansimg").hide();
+              document.getElementById("ans").innerHTML="You scrored" + " "+ score +"%.";
+            }
+           
 
       });
 
