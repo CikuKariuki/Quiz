@@ -21,7 +21,7 @@ button{
 button:hover{
   background-color: #a7ffeb;
   color: black;
-  width: 350px;
+  
 }
 .topbutton{
   font-size: 20pt;
@@ -61,4 +61,11 @@ button:hover{
 }
 #ansimg{
   display: none;
+}
+.reset:hover{
+  color: #000000;
+  text-decoration: none; 
+}
+.reset{
+  color: #000000;
 }
